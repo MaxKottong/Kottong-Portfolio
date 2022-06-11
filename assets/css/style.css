@@ -79,8 +79,7 @@ header nav ul li a:hover {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+
 }
 
 .page-section h2 {
@@ -91,4 +90,9 @@ header nav ul li a:hover {
     font-size: 60px;
     border-right: 3px solid var(--primary-color);
     line-height: 1.1;
+    margin-right: 35px;
+}
+
+#about p {
+    flex: 1;
 }
