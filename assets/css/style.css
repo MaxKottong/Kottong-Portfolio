@@ -29,6 +29,7 @@ header a {
 
 header nav {
     margin: 7px;
+    padding-right: 80px;
 }
 
 header nav ul {
@@ -40,15 +41,16 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
+    padding: 5px;
+    font-size: 23px;
     color: var(--secondary-color);
     background: linear-gradient(to top, var(--secondary-color) 50%, var(--primary-color) 50%);
     background-size: 100% 200%;
-    transition: all .3s ease-out;
+    background-position: top left;
+    transition: all .2s ease-out;
     margin: 5px;
     position: relative;
+    border-bottom: 4px solid var(--secondary-color);
 }
 
 header nav ul li a:hover {
