@@ -75,7 +75,7 @@ header nav ul li a:hover {
 
 .page-section {
     padding-bottom: 50px;
-    width: 70%;
+    padding-right: 80px;
     display: flex;
 }
 
@@ -91,8 +91,14 @@ header nav ul li a:hover {
 }
 
 .flex-container img {
-    max-width: 10%;
+    max-width: 50%;
     flex: 1;
+    opacity: .7;
+    transition: opacity .5s ease-out;
+}
+
+.flex-container img:hover {
+    opacity: 1;
 }
 
 #about p {
@@ -101,9 +107,11 @@ header nav ul li a:hover {
 
 #work img {
     margin-left: 35px;
-    border: 3px solid var(--secondary-color);
+    border: 4px solid var(--secondary-color);
 }
 
 #contact a {
-    margin-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
