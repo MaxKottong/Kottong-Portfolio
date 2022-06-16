@@ -121,6 +121,8 @@ header nav ul li a:hover {
     flex: 33.33%;*/
     opacity: .7;
     transition: opacity .5s ease-out;
+    margin-left: 35px;
+    border: 4px solid var(--secondary-color);
 }
 
 .flex-container img:hover {
@@ -131,11 +133,6 @@ header nav ul li a:hover {
     max-width: 48%;
     margin: 5px;
     position: relative;
-}
-
-#work img {
-    margin-left: 35px;
-    border: 4px solid var(--secondary-color);
 }
 
 div.run-buddy-img {
