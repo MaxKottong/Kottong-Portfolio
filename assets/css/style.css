@@ -117,8 +117,6 @@ header nav ul li a:hover {
 
 .flex-container img {
     max-width: 100%;
-    /*    max-height: 100px;
-    flex: 33.33%;*/
     opacity: .7;
     transition: opacity .5s ease-out;
     margin-left: 35px;
@@ -165,6 +163,7 @@ div.placeholder-label {
 
 .page-section-contact {
     display: flex;
+    margin-right: 80px;
 }
 
 .page-section-contact h2 {
@@ -187,11 +186,8 @@ div.placeholder-label {
 }
 
 .page-section-contact ul li a {
-    padding: 5px;
     font-size: 20px;
     margin: 30px;
-    padding: 5px;
-    position: relative;
     border-bottom: 4px solid var(--primary-color);
     text-decoration: none;
 }
@@ -254,6 +250,7 @@ div.placeholder-label {
         padding-bottom: 10px;
         text-align: left;
         width: 100%;
+        font-size: 40px;
     }
 
     .flex-container {
@@ -284,6 +281,12 @@ div.placeholder-label {
         padding-bottom: 10px;
         text-align: left;
         width: 100%;
+        font-size: 40px;
+    }
+
+    .page-section-contact li {
+        width: 100%;
+        padding: 5px;
     }
 }
 
