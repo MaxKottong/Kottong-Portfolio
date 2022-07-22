@@ -19,7 +19,6 @@ body {
 
 header {
     background-color: #fff !important;
-    z-index: 9999;
     margin: 0;
     padding: 0px 0 15px 0;
     font-family: GuessSansW00-ExtraBold;
@@ -29,6 +28,10 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     padding-left: 25px;
+}
+
+.navbar-nav {
+    padding-top: 15px;
 }
 
 .card-body {
@@ -131,4 +134,79 @@ nav ul a:hover:after {
 
 .contact ul li a:hover {
     text-decoration: none !important;
+}
+
+.offcanvas-header {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    header h1 a{
+        font-size: 40px !important;
+    }
+
+    .offcanvas-header {
+        display: block;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: black;
+        transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+
+    .navbar-toggler {
+        z-index: 99998;
+        background-color: #000 !important;
+    }
+
+    .navbar-nav li a {
+        color: white !important;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        padding-left: 0;
+    }
+
+    header h1 a {
+        font-size: 40px !important;
+    }
+
+    .navbar-brand {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        margin-left: 0px;
+    }
+
+    #about-me {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    #work {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    #contact {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
 }
