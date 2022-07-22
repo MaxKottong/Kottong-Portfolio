@@ -4,96 +4,84 @@
     <meta charset="utf-8" />
     <title>Kottong Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <!--Header/Nav-->
     <header>
-        <h1>
+        <h1 class="text-sm-center text-lg-left pl-sm-0 pl-lg-5">
             <a href="/">Max Kottong</a>
         </h1>
         <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li>
+            <ul class="d-flex justify-content-lg-end justify-content-sm-center ml-4">
+                <li class="ml-4"><a class="text-white" href="#about-me">About Me</a></li>
+                <li class="ml-4"><a class="text-white" href="#work">Work</a></li>
+                <li class="ml-4"><a class="text-white" href="#contact">Contact Me</a></li>
+                <li class="ml-4"><a class="text-white" href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>
 
-    <!--Hero-->
-    <section class="hero">
-        <h2>
-            Cool subtitle here!
-        </h2>
-
-    </section>
-
     <!--About Me-->
-    <section class="page-section" id="about">
-        <h2>About Me</h2>
-        <div class="paragraph-div">
+    <section class="p-4" id="about-me">
+        <div class="col-12 mb-4 text-white about-me-title">
+            <h1>About Me</h1>
+        </div>
+        <div class="about-me-info text-white">
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quibusdam provident ipsa veritatis nihil voluptates mollitia architecto voluptatum officia, doloribus ducimus harum aliquam? Aut quos pariatur modi dolores amet asperiores!
-
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio molestias harum veritatis sapiente quo non, sed qui doloremque odit deleniti animi corrupti voluptas. Adipisci deserunt porro nesciunt ex laborum officia!
+                I grew up in Chapel Hill, North Carolina and have resided there my entire life. At a young age I fell in love with computers
+                and how they worked. I've always been interested in Computer Science and Programming, but never got the opportunity to take
+                classes during Highschool at East Chapel Hill High. I am currently attending a UNC Coding Bootcamp in the hopes of learning 
+                some valuable skills so that I may seek employment when finished, and begin my journey into coding. I wish to also finish
+                college as I have an Associates in Science and want my Bachelors Degree in Computer Science.
             </p>
         </div>
 
     </section>
 
-    <!--Work-->
-    <section class="page-section" id="work">
-        <h2>Work</h2>
-        <div class="flex-container">
-            <div class="run-buddy-img">
-                <div class="run-buddy-label">
-                    Run Buddy
-                </div>
-                <a href="https://maxkottong.github.io/run-buddy/" target="_blank">
-                    <img src="./assets/images/run-buddy.png" alt="">
+    <section class="row p-4" id="work">
+        <div class="col-12 mb-4 text-white work-title">
+            <h1>Work</h1>
+        </div>
+        <div class="col-md-12 col-lg-10 p-2">
+            <div class="card">
+                <a class="card-link" href="https://gatorhatur.github.io/stream-connect/">
+                    <img class="card-img img-fluid" src="./assets/images/stream-connect.png" alt="" />
                 </a>
-            </div>
-            <div class="placeholder-img">
-                <div class="placeholder-label">
-                    Horiseon
+                <div class="card-img-overlay d-flex flex-column">
+                    <h5 class="card-title mt-auto">Stream Connect</h5>
                 </div>
-                <a href="https://maxkottong.github.io/Horiseon-Social-Solution-Services/" target="_blank">
-                    <img src="./assets/images/horiseon-thin.png" alt="">
-                </a>
             </div>
-            <div class="placeholder-img">
-                <div class="placeholder-label">
-                    Stream-Connect
+        </div>
+        <div class="col-md-12 col-lg-5">
+            <div class="card">
+                <img class="card-img" src="./assets/images/run-buddy.png" alt="Alternate Text" />
+                <div class="card-img-overlay d-flex flex-column">
+                    <h5 class="card-title mt-auto">Run Buddy</h5>
                 </div>
-                <a href="https://gatorhatur.github.io/stream-connect/" target="_blank">
-                    <img src="./assets/images/stream-connect1.png" alt="">
-                </a>
             </div>
-            <div class="placeholder-img">
-                <div class="placeholder-label">
-                    Coming Soon
+        </div>
+        <div class="col-md-12 col-lg-5">
+            <div class="card">
+                <img class="card-img" src="./assets/images/horiseon.png" alt="Alternate Text" />
+                <div class="card-img-overlay d-flex flex-column">
+                    <h5 class="card-title mt-auto">Horiseon</h5>
                 </div>
-                <img src="./assets/images/placeholder.png" alt="">
-            </div>
-            <div class="placeholder-img">
-                <div class="placeholder-label">
-                    Coming Soon
-                </div>
-                <img src="./assets/images/placeholder.png" alt="">
             </div>
         </div>
     </section>
 
     <!--Contact Me-->
-    <section class="page-section-contact" id="contact">
-        <h2>Contact Me</h2>
-        <ul>
-            <li><a href="tel:919-448-4841">919-448-4841</a></li>
-            <li><a href="mailto:max.kottong@gmail.com">max.kottong@gmail.com</a></li>
-            <li><a href="https://github.com/MaxKottong" target="_blank">GitHub</a></li>
-            <li><a href="" target="_blank">Twitter</a></li>
-            <li><a href="https://open.spotify.com/user/malignantxo?si=48f062cc51d54017" target="_blank">Spotify</a></li>
+    <section class="p-4" id="contact">
+        <div class="col-12 mb-4 text-white contact-me-title">
+            <h1>Contact Me</h1>
+        </div>
+        <ul class="d-flex justify-content-start contact-info">
+            <li class="mr-4 "><a class="text-white" href="tel:919-448-4841">919-448-4841</a></li>
+            <li class="mr-4"><a class="text-white" href="mailto:max.kottong@gmail.com">max.kottong@gmail.com</a></li>
+            <li class="mr-4"><a class="text-white" href="https://github.com/MaxKottong" target="_blank">GitHub</a></li>
+            <li class="mr-4"><a class="text-white" href="" target="_blank">Twitter</a></li>
+            <li class="mr-4"><a class="text-white" href="https://open.spotify.com/user/malignantxo?si=48f062cc51d54017" target="_blank">Spotify</a></li>
         </ul>
     </section>
 
