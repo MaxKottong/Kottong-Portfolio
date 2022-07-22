@@ -5,29 +5,30 @@
     <title>Kottong Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/3ead94f22665309311d1eca5185a256c?family=GuessSansW00-ExtraBold" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <!--Header/Nav-->
     <header>
-        <h1 class="text-sm-center text-lg-left pl-sm-0 pl-lg-5">
-            <a href="/">Max Kottong</a>
-        </h1>
-        <nav>
-            <ul class="d-flex justify-content-lg-end justify-content-sm-center ml-4">
-                <li class="ml-4"><a class="text-white" href="#about-me">About Me</a></li>
-                <li class="ml-4"><a class="text-white" href="#work">Work</a></li>
-                <li class="ml-4"><a class="text-white" href="#contact">Contact Me</a></li>
-                <li class="ml-4"><a class="text-white" href="#resume">Resume</a></li>
+        <nav class="row">
+            <h1 class="col-3 pt-3">
+                <a href="/">Max KottoNg</a>
+            </h1>
+            <ul class="d-flex justify-content-center col-6 pt-4">
+                <li class="ml-4"><a class="" href="#about-me">About Me</a></li>
+                <li class="ml-4"><a class="" href="#work">Work</a></li>
+                <li class="ml-4"><a class="" href="#contact">Contact Me</a></li>
+                <li class="ml-4"><a class="" href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>
 
     <!--About Me-->
     <section class="p-4" id="about-me">
-        <div class="col-12 mb-4 text-white about-me-title">
+        <div class="col-12 mb-4 about-me-title">
             <h1>About Me</h1>
         </div>
-        <div class="about-me-info text-white">
+        <div class="about-me-info">
             <p>
                 I grew up in Chapel Hill, North Carolina and have resided there my entire life. At a young age I fell in love with computers
                 and how they worked. I've always been interested in Computer Science and Programming, but never got the opportunity to take
@@ -40,32 +41,59 @@
     </section>
 
     <section class="row p-4" id="work">
-        <div class="col-12 mb-4 text-white work-title">
+        <div class="col-12 mb-4 work-title">
             <h1>Work</h1>
         </div>
-        <div class="col-md-12 col-lg-10 p-2">
-            <div class="card">
-                <a class="card-link" href="https://gatorhatur.github.io/stream-connect/">
-                    <img class="card-img img-fluid" src="./assets/images/stream-connect.png" alt="" />
+        <div class="col-md-12 col-lg-4 p-2">
+            <div class="card h-100">
+                <a class="card-link" href="https://gatorhatur.github.io/stream-connect/" target="_blank">
+                    <img class="card-img" src="./assets/images/stream-connect.png" alt="" />
                 </a>
-                <div class="card-img-overlay d-flex flex-column">
-                    <h5 class="card-title mt-auto">Stream Connect</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Stream Connect</h5>
+                    <p class="card-text">
+                        Written with HTML, CSS & JavaScript, this website connects users to their favorite movies and their
+                        respective streaming platforms
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-lg-5">
-            <div class="card">
-                <img class="card-img" src="./assets/images/run-buddy.png" alt="Alternate Text" />
-                <div class="card-img-overlay d-flex flex-column">
-                    <h5 class="card-title mt-auto">Run Buddy</h5>
+        <div class="col-md-12 col-lg-4 p-2">
+            <div class="card h-100">
+                <a class="card-link" href="https://maxkottong.github.io/run-buddy/" target="_blank">
+                    <img class="card-img" src="./assets/images/run-buddy.png" alt="Alternate Text" />
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Run Buddy</h5>
+                    <p class="card-text">
+                        Written with HTML and CSS alone, this website is a mockup for a training company.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-lg-5">
-            <div class="card">
-                <img class="card-img" src="./assets/images/horiseon.png" alt="Alternate Text" />
-                <div class="card-img-overlay d-flex flex-column">
-                    <h5 class="card-title mt-auto">Horiseon</h5>
+        <div class="col-md-12 col-lg-4 p-2">
+            <div class="card h-100">
+                <a class="card-link" href="https://maxkottong.github.io/Horiseon-Social-Solution-Services/" target="_blank">
+                    <img class="card-img" src="./assets/images/horiseon.png" alt="Alternate Text" />
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Horiseon</h5>
+                    <p class="card-text">
+                        Written with HTML and CSS, this website is a mockup for an online image company.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4 p-2">
+            <div class="card h-100">
+                <a class="card-link" href="https://www.wowhead.com/subtlety-rogue-pvp-guide" target="_blank">
+                    <img class="card-img" src="./assets/images/wowhead.png" />
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">WoWhead Guides</h5>
+                    <p class="card-text">
+                        This was written in HTML for WoWhead as a guide for players in World of Warcraft.
+                    </p>
                 </div>
             </div>
         </div>
@@ -73,15 +101,15 @@
 
     <!--Contact Me-->
     <section class="p-4" id="contact">
-        <div class="col-12 mb-4 text-white contact-me-title">
+        <div class="col-12 mb-4 contact-me-title">
             <h1>Contact Me</h1>
         </div>
         <ul class="d-flex justify-content-start contact-info">
-            <li class="mr-4 "><a class="text-white" href="tel:919-448-4841">919-448-4841</a></li>
-            <li class="mr-4"><a class="text-white" href="mailto:max.kottong@gmail.com">max.kottong@gmail.com</a></li>
-            <li class="mr-4"><a class="text-white" href="https://github.com/MaxKottong" target="_blank">GitHub</a></li>
-            <li class="mr-4"><a class="text-white" href="" target="_blank">Twitter</a></li>
-            <li class="mr-4"><a class="text-white" href="https://open.spotify.com/user/malignantxo?si=48f062cc51d54017" target="_blank">Spotify</a></li>
+            <li class="mr-4 "><a class="" href="tel:919-448-4841">919-448-4841</a></li>
+            <li class="mr-4"><a class="" href="mailto:max.kottong@gmail.com">max.kottong@gmail.com</a></li>
+            <li class="mr-4"><a class="" href="https://github.com/MaxKottong" target="_blank">GitHub</a></li>
+            <li class="mr-4"><a class="" href="" target="_blank">Twitter</a></li>
+            <li class="mr-4"><a class="" href="https://open.spotify.com/user/malignantxo?si=48f062cc51d54017" target="_blank">Spotify</a></li>
         </ul>
     </section>
 
