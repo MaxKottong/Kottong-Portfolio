@@ -1,9 +1,10 @@
 @import url(//db.onlinewebfonts.com/c/3ead94f22665309311d1eca5185a256c?family=GuessSansW00-ExtraBold);
 
 @font-face {
-    font-family: "GuessSansW00-ExtraBold";
-    src: url("//db.onlinewebfonts.com/t/3ead94f22665309311d1eca5185a256c.eot");
-}
+    font-family: "GuessSans-ExtraBold";
+    src: url("//db.onlinewebfonts.com/t/1c54cd312efbec171f7f88fbe4625e53.eot");
+    src: url("//db.onlinewebfonts.com/t/1c54cd312efbec171f7f88fbe4625e53.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1c54cd312efbec171f7f88fbe4625e53.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1c54cd312efbec171f7f88fbe4625e53.woff") format("woff"), url("//db.onlinewebfonts.com/t/1c54cd312efbec171f7f88fbe4625e53.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1c54cd312efbec171f7f88fbe4625e53.svg#GuessSans-ExtraBold") format("svg");
+} 
 
 * {
     margin: 0;
