@@ -243,4 +243,23 @@ nav ul a:hover:after {
     #contact-list li {
         margin-bottom: 10px;
     }
+
+    .about-me-title {
+        text-align: center;
+        top: 15vh;
+        width: 100%;
+    }
+
+    .about-me-info {
+        text-align: center;
+        top: 21vh;
+        border-left: none;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 30px;
+        left: 0;
+        border-top: 1px solid #fff;
+    }
 }
