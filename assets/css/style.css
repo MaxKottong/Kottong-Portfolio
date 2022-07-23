@@ -29,7 +29,7 @@ header {
     background-image: url(../images/31.png);
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -245,10 +245,15 @@ nav ul a:hover:after {
     color: #fff !important;
 }
 
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 600px) {
     header {
         margin-bottom: 30px;
-        background-image: url(../images/31re.png);
     }
 
     .container {
@@ -292,9 +297,6 @@ nav ul a:hover:after {
 }
 
 @media (max-width: 992px) {
-    header {
-        background-image: url(../images/31re.png);
-    }
 
     .offcanvas-header {
         display: block;

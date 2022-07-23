@@ -22,8 +22,3 @@ $(window).on('resize', function () {
         $("#contact-list").removeClass("d-block");
     }
 })
-
-$(window).scroll(function () {
-    var scrolledY = $(window).scrollTop();
-    $('#container').css('background-position', 'left ' + ((scrolledY)) + 'px');
-});
