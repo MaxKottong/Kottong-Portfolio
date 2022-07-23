@@ -13,15 +13,31 @@ body {
     background-color: #fff !important;
 }
 
+@font-face {
+    font-family: fontBlackpastAlt;
+    src: url(../fonts/Blackpast-Alt.ttf);
+}
+
+@font-face {
+    font-family: fontBlackpast;
+        src: url(../fonts/Blackpast.ttf);
+}
+
 header {
     background-color: #fff !important;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Chapel-Hill.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.blackpast {
+    font-family: fontBlackpast;
+}
+
+.blackpastAlt {
+    font-family: fontBlackpastAlt;
 }
 
 header h1 {
