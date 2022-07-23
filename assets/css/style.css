@@ -257,6 +257,14 @@ nav ul a:hover:after {
     .profile {
         margin-bottom: 30px;
     }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative;
+    }
 }
 
 @media (min-width: 768px) {
