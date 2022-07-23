@@ -292,6 +292,10 @@ nav ul a:hover:after {
 }
 
 @media (max-width: 992px) {
+    header {
+        background-image: url(../images/31re.png);
+    }
+
     .offcanvas-header {
         display: block;
     }
