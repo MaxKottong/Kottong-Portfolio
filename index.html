@@ -13,10 +13,12 @@
 <body>
     <!--Header/Nav-->
     <header>
+        <div class="site-info">
+            <a class="text-white site-title" href="/"><span class="blackpast">m</span><span class="blackpastAlt">a</span><span class="blackpast">x kotto</span><span class="blackpastAlt">n</span><span class="blackpast">g</span></a>
+            <p class="site-descrip">Aspiring Programmer and top level gamer.</p>
+        </div>
+
         <nav class="navbar navbar-expand-lg row">
-            <h1 class="pt-0">
-                <a class="navbar-brand text-white" href="/"><span class="blackpast">m</span><span class="blackpastAlt">a</span><span class="blackpast">x kotto</span><span class="blackpastAlt">n</span><span class="blackpast">g</span></a>
-            </h1>
             <button class="navbar-toggler mr-3" type="button" data-trigger="#main_nav">
                 <i class="fa-solid fa-bars fa-xl"></i>
             </button>
@@ -36,83 +38,135 @@
     </header>
 
     <!--About Me-->
-    <section class="pr-4 pb-4" id="about-me">
-        <div class="mb-4 about-me-title text-white">
-            <h1>About Me</h1>
+    <section class="profile container">
+        <h2 class="text-center">Profile</h2>
+        <hr />
+        <div class="profile-info row">
+            <div class="col-md-4">
+                <h3>About Me</h3>
+                <p>
+                    I grew up in Chapel Hill, North Carolina and have resided there my entire life. At a young age I fell in love with computers
+                    and how they worked. I've always been interested in Computer Science and Programming, but never got the opportunity to take
+                    classes during Highschool at East Chapel Hill High. I am currently attending a UNC Coding Bootcamp in the hopes of learning
+                    some valuable skills so that I may seek employment when finished, and begin my journey into coding. I wish to also finish
+                    college as I have an Associates in Science and want my Bachelors Degree in Computer Science.
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./assets/images/headshot.png" height="246" width="246" />
+            </div>
+            <div class="col-md-4">
+                <h3>Details</h3>
+                <p>
+                    <strong>Name:</strong>
+                    <br />
+                    Max Kottong
+                    <br />
+                    <strong>Age:</strong>
+                    <br />
+                    21 years
+                    <br />
+                    <strong>Location:</strong>
+                    <br />
+                    Chapel Hill, North Carolina
+                </p>
+                <a href="https://twitter.com/Maxlolrogue?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @Maxlolrogue</a>
+            </div>
         </div>
-        <div class="about-me-info text-white">
-            <p>
-                I grew up in Chapel Hill, North Carolina and have resided there my entire life. At a young age I fell in love with computers
-                and how they worked. I've always been interested in Computer Science and Programming, but never got the opportunity to take
-                classes during Highschool at East Chapel Hill High. I am currently attending a UNC Coding Bootcamp in the hopes of learning
-                some valuable skills so that I may seek employment when finished, and begin my journey into coding. I wish to also finish
-                college as I have an Associates in Science and want my Bachelors Degree in Computer Science.
-            </p>
-        </div>
-
     </section>
 
-    <section class="row p-4" id="work">
-        <div class="col-12 mb-4 work-title">
-            <h1>Work</h1>
-        </div>
-        <div class="col-md-12 col-lg-4 p-2">
-            <div class="card h-100">
-                <a class="card-link" href="https://gatorhatur.github.io/stream-connect/" target="_blank">
-                    <img class="card-img" src="./assets/images/stream-connect.png" alt="" />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">Stream Connect</h5>
-                    <p class="card-text">
-                        Written with HTML, CSS & JavaScript, this website connects users to their favorite movies and their
-                        respective streaming platforms
-                    </p>
+    <section class="bg-white">
+        <div class="container work">
+            <h2 class="text-center">Work</h2>
+            <hr />
+            <div class="projects row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card h-100">
+                        <a class="card-link" href="https://gatorhatur.github.io/stream-connect/" target="_blank">
+                            <img class="card-img" src="./assets/images/stream-connect.png" alt="" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Stream Connect</h5>
+                            <p class="card-text">
+                                Written with HTML, CSS & JavaScript, this website connects users to their favorite movies and their
+                                respective streaming platforms
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card h-100">
+                        <a class="card-link" href="https://www.wowhead.com/subtlety-rogue-pvp-guide" target="_blank">
+                            <img class="card-img" src="./assets/images/wowhead.png" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">WoWhead Guides</h5>
+                            <p class="card-text">
+                                This was written in HTML for WoWhead as a guide for players in World of Warcraft.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card h-100">
+                        <a class="card-link" href="https://maxkottong.github.io/run-buddy/" target="_blank">
+                            <img class="card-img" src="./assets/images/run-buddy.png" alt="Alternate Text" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Run Buddy</h5>
+                            <p class="card-text">
+                                Written with HTML and CSS alone, this website is a mockup for a training company.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card h-100">
+                        <a class="card-link" href="https://maxkottong.github.io/Horiseon-Social-Solution-Services/" target="_blank">
+                            <img class="card-img" src="./assets/images/horiseon.png" alt="Alternate Text" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Horiseon</h5>
+                            <p class="card-text">
+                                Written with HTML and CSS, this website is a mockup for an online image company.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-lg-4 p-2">
-            <div class="card h-100">
-                <a class="card-link" href="https://www.wowhead.com/subtlety-rogue-pvp-guide" target="_blank">
-                    <img class="card-img" src="./assets/images/wowhead.png" />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">WoWhead Guides</h5>
-                    <p class="card-text">
-                        This was written in HTML for WoWhead as a guide for players in World of Warcraft.
-                    </p>
+    </section>
+
+    <section class="contact-bg">
+        <div id="contact" class="container">
+            <h2 class="text-center">Contact</h2>
+            <hr />
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="unstyled">
+                        <li class="twitter">
+                            <a href="https://twitter.com/Maxlolrogue" target="_blank">
+                                <i class="fa-brands fa-twitter-square fa-2xl"></i>
+                                https://twitter.com/Maxlolrogue
+                            </a>
+                        </li>
+                        <li class="linkedin">
+                            <a href="https://www.linkedin.com/in/max-kottong-027778213/" target="_blank">
+                                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                                https://www.linkedin.com/in/max-kottong-027778213/
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-lg-4 p-2">
-            <div class="card h-100">
-                <a class="card-link" href="https://maxkottong.github.io/run-buddy/" target="_blank">
-                    <img class="card-img" src="./assets/images/run-buddy.png" alt="Alternate Text" />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">Run Buddy</h5>
-                    <p class="card-text">
-                        Written with HTML and CSS alone, this website is a mockup for a training company.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-lg-4 p-2">
-            <div class="card h-100">
-                <a class="card-link" href="https://maxkottong.github.io/Horiseon-Social-Solution-Services/" target="_blank">
-                    <img class="card-img" src="./assets/images/horiseon.png" alt="Alternate Text" />
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">Horiseon</h5>
-                    <p class="card-text">
-                        Written with HTML and CSS, this website is a mockup for an online image company.
-                    </p>
+                <div class="col-md-6">
+
                 </div>
             </div>
         </div>
     </section>
 
     <!--Contact Me-->
-    <section class="p-4" id="contact">
+    <!--<section class="p-4" id="contact">
         <div class="col-12 mb-4 contact-me-title">
             <h1>Contact Me</h1>
         </div>
@@ -123,7 +177,7 @@
             <li class="mr-4"><a class="" href="" target="_blank">Twitter</a></li>
             <li class="mr-4"><a class="" href="https://open.spotify.com/user/malignantxo?si=48f062cc51d54017" target="_blank">Spotify</a></li>
         </ul>
-    </section>
+    </section>-->
 
     <!--Resume-->
     <section class="page-section" id="resume">
@@ -131,6 +185,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="./assets/js/script.js"></script>
 
 </body>
