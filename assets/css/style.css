@@ -246,7 +246,7 @@ nav ul a:hover:after {
 }
 
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .header {
         background-attachment: scroll;
     }
 }
