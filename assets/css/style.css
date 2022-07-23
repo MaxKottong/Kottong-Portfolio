@@ -215,8 +215,12 @@ nav ul a:hover:after {
     color: #fff;
 }
 
+#contact hr {
+    background: #fff;
+}
+
 #contact li {
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 #contact li a {
@@ -224,14 +228,14 @@ nav ul a:hover:after {
 }
 
 .fa-twitter-square {
-    color: #cccaca;
+    color: #fff;
 }
 
 .fa-linkedin {
-    color: #cccaca;
+    color: #fff;
 }
 
-.twitter:hover a{
+.twitter:hover a {
     text-decoration: none !important;
     color: #fff !important;
 }
@@ -241,9 +245,28 @@ nav ul a:hover:after {
     color: #fff !important;
 }
 
+@media (max-width: 600px) {
+    header {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .profile {
+        margin-bottom: 30px;
+    }
+}
+
 @media (min-width: 768px) {
     .container {
         width: 750px;
+        padding: 40px 100px;
+    }
+
+    .work {
+        padding: 40px 0px;
     }
 }
 
@@ -260,10 +283,6 @@ nav ul a:hover:after {
 }
 
 @media (max-width: 992px) {
-    header h1 a{
-        font-size: 40px !important;
-    }
-
     .offcanvas-header {
         display: block;
     }
