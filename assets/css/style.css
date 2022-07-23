@@ -31,7 +31,11 @@ header h1 {
 }
 
 .navbar-nav {
-    padding-top: 15px;
+    padding-top: 18px;
+}
+
+.navbar-brand {
+    font-size: 40px !important; 
 }
 
 .card-body {
@@ -161,6 +165,7 @@ nav ul a:hover:after {
         visibility: hidden;
         background-color: black;
         transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+        z-index: 99999
     }
 
     .navbar-collapse.show {
