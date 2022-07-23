@@ -24,7 +24,7 @@ header h1 {
 }
 
 .navbar-nav {
-    padding-top: 18px;
+    padding-top: 0px;
 }
 
 .navbar-brand {
@@ -168,7 +168,7 @@ nav ul a:hover:after {
 
     .navbar-toggler {
         z-index: 99998;
-        background-color: #000 !important;
+        
     }
 
     .navbar-nav li a {
