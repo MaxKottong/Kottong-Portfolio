@@ -248,13 +248,13 @@ nav ul a:hover:after {
 @media only screen and (max-device-width: 1366px) {
     .header {
         background-attachment: scroll;
-        background-image: url(../images/31re.png)
     }
 }
 
 @media (max-width: 600px) {
     header {
         margin-bottom: 30px;
+        background-image: url(../images/31re.png)
     }
 
     .container {
