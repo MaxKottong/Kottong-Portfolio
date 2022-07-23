@@ -248,7 +248,7 @@ nav ul a:hover:after {
 @media (max-width: 600px) {
     header {
         margin-bottom: 30px;
-        background-image: url(../assets/images/31re.png)
+        background-image: url(../images/31re.png)
     }
 
     .container {
