@@ -175,6 +175,14 @@ nav ul a:hover:after {
     padding-bottom: 20px;
 }
 
+.ability-score {
+    float: right;
+}
+
+.fa-star {
+    color: rgb(110, 137, 144);
+}
+
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
@@ -208,6 +216,19 @@ nav ul a:hover:after {
 
 #contact {
     padding-bottom: 200px;
+}
+
+.unstyled {
+    list-style: none;
+}
+
+#abilities h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+#abilities li {
+    margin-bottom: 10px;
 }
 
 #contact h2 {
