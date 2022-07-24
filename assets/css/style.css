@@ -228,7 +228,11 @@ nav ul a:hover:after {
 }
 
 #abilities li {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#abilities ul {
+    margin-bottom: 0;
 }
 
 #contact h2 {
