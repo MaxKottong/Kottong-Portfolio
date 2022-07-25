@@ -90,48 +90,6 @@ nav {
     margin-right: 80px;
 }
 
-nav ul {
-    list-style: none;
-}
-
-nav ul a {
-    position: relative;
-    display: block;
-    cursor: pointer;
-}
-
-nav ul a:before, a:after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 1px;
-    top: 50%;
-    margin-top: -0.5px;
-    background: #fff;
-}
-
-nav ul a:before {
-    left: -2.5px;
-}
-
-nav ul a:after {
-    right: 2.5px;
-    background: #fff;
-    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
-
-nav ul a:hover:before {
-    background: #fff;
-    width: 100%;
-    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
-
-nav ul a:hover:after {
-    background: transparent;
-    width: 100%;
-    transition: 0s;
-}
-
 #contact ul {
     list-style: none;
 }
@@ -325,32 +283,51 @@ nav ul a:hover:after {
         display: block;
     }
 
-    .navbar-collapse {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 100%;
-        width: 100%;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        overflow-y: auto;
-        visibility: hidden;
-        background-color: black;
-        transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
-        z-index: 99999
-    }
-
-    .navbar-collapse.show {
-        visibility: visible;
-        transform: translateX(-100%);
-    }
-
-    .navbar-toggler {
-        z-index: 99998;
-        
-    }
-
     .navbar-nav li a {
         color: white !important;
+    }
+}
+
+@media (min-width: 992px) {
+        nav ul {
+        list-style: none;
+    }
+
+    nav ul a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+    }
+
+    nav ul a:before, a:after {
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        top: 50%;
+        margin-top: -0.5px;
+        background: #fff;
+    }
+
+    nav ul a:before {
+        left: -2.5px;
+    }
+
+    nav ul a:after {
+        right: 2.5px;
+        background: #fff;
+        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+
+    nav ul a:hover:before {
+        background: #fff;
+        width: 100%;
+        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+
+    nav ul a:hover:after {
+        background: transparent;
+        width: 100%;
+        transition: 0s;
     }
 }
