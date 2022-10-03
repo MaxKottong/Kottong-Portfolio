@@ -1,3 +1,6 @@
 # Kottong-Portfolio
 
-This is my personal portfolio, showcasing the different works I have completed, as well as how to contact me in case you may need anything. It includes a short description, 5 of my most recent works, and once again a contact section to be able to reach me.
+This is my personal portfolio, including a description about me, my abilities and how well I can perform at them, my works whether it be solo or groupwork and how to contact me or follow me.
+
+## Links
+[Portfolio](https://maxkottong.github.io/Kottong-Portfolio/)
