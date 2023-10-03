@@ -218,12 +218,21 @@ nav {
     color: #fff;
 }
 
+.fa-github {
+    color: #fff;
+}
+
 .twitter:hover a {
     text-decoration: none !important;
     color: #fff !important;
 }
 
 .linkedin:hover a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.github:hover a {
     text-decoration: none !important;
     color: #fff !important;
 }
